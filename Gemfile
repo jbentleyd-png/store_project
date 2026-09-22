@@ -68,4 +68,4 @@ end
 # JSON 3.0.0 PIN:
 # json 3.0.0 breaks Rails 8.1.3.1's session/CSP handling (ArgumentError in csp_meta_tag).
 # Remove this pin once Rails fixes it: https://github.com/rails/rails/issues/58685
-gem "json", "< 3.0"
+gem "json", "< 4.0"
